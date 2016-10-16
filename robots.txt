@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /css
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
+Disallow: /tags
+
+Sitemap: http://corysalveson.com/sitemap.xml
