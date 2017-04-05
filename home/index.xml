@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home-rsses on Cory Salveson</title>
-    <link>http://corysalveson.com/home/index.xml</link>
-    <description>Recent content in Home-rsses on Cory Salveson</description>
+    <title>Homes on Cory Salveson</title>
+    <link>https://corysalveson.com/home/index.xml</link>
+    <description>Recent content in Homes on Cory Salveson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Cory Salveson</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Cory Salveson</copyright>
+    <lastBuildDate>Tue, 14 Feb 2017 03:35:00 +0000</lastBuildDate>
     <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
