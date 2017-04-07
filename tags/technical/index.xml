@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical on Cory Salveson</title>
-    <link>https://corysalveson.com/tags/technical/index.xml</link>
+    <link>http://corysalveson.com/tags/technical/index.xml</link>
     <description>Recent content in Technical on Cory Salveson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Running headless Ubuntu Server on Windows 10 with Cygwin, cmder, and Ubik</title>
-      <link>https://corysalveson.com/post/headless-with-ubik/</link>
+      <link>http://corysalveson.com/post/headless-with-ubik/</link>
       <pubDate>Mon, 04 Jul 2016 19:00:00 +0000</pubDate>
       
-      <guid>https://corysalveson.com/post/headless-with-ubik/</guid>
+      <guid>http://corysalveson.com/post/headless-with-ubik/</guid>
       <description>
 
 &lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
