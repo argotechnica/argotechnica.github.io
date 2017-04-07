@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.19" />
+  <meta name="author" content="Cory Salveson">
+  <meta name="description" content="MSc Student, Social Science of the Internet">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://corysalveson.com/index.xml" type="application/rss+xml" title="Cory Salveson">
+  <link rel="feed" href="https://corysalveson.com/index.xml" type="application/rss+xml" title="Cory Salveson">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://corysalveson.com/post/headless-with-ubik/">
+
+  
+
+  <title>Running headless Ubuntu Server on Windows 10 with Cygwin, cmder, and Ubik | Cory Salveson</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Cory Salveson</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">Running headless Ubuntu Server on Windows 10 with Cygwin, cmder, and Ubik</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-07-04 19:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jul 4, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/technical">technical</a
+    >, 
+    
+    <a href="/tags/tools">tools</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcorysalveson.com%2fpost%2fheadless-with-ubik%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Running%20headless%20Ubuntu%20Server%20on%20Windows%2010%20with%20Cygwin%2c%20cmder%2c%20and%20Ubik&amp;url=https%3a%2f%2fcorysalveson.com%2fpost%2fheadless-with-ubik%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fcorysalveson.com%2fpost%2fheadless-with-ubik%2f&amp;title=Running%20headless%20Ubuntu%20Server%20on%20Windows%2010%20with%20Cygwin%2c%20cmder%2c%20and%20Ubik"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fcorysalveson.com%2fpost%2fheadless-with-ubik%2f&amp;title=Running%20headless%20Ubuntu%20Server%20on%20Windows%2010%20with%20Cygwin%2c%20cmder%2c%20and%20Ubik"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Running%20headless%20Ubuntu%20Server%20on%20Windows%2010%20with%20Cygwin%2c%20cmder%2c%20and%20Ubik&amp;body=https%3a%2f%2fcorysalveson.com%2fpost%2fheadless-with-ubik%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="background">Background</h1>
+
+<p>I ran Linux as my primary desktop for years, but now I find myself, <a href="https://en.wikisource.org/wiki/The_Divine_Comedy/Inferno/Canto_I" target="_blank">as in a forest dark</a>, running Windows 10. <a href="https://msdn.microsoft.com/en-gb/commandline/wsl/faq" target="_blank">Bash on Ubuntu on Windows</a> (BUW) is a commendable project, but it&rsquo;s incomplete: BUW has a fully stocked <code>/bin</code> directory, for example, but ICMP is broken, so <code>ping</code> and <code>traceroute</code> don&rsquo;t work. Some Python scripts also fail in ways unique to the BUW Linux environment. So, while I do hope the project goes on to get future updates, I need something a bit more powerful and flexible in the meantime.</p>
+
+<p>Running a Linux virtual machine (VM) is my solution. Being a &ldquo;real&rdquo; Linux server, and one that I can fully control, it should be able to do anything I need for local (non-cloud) tasks. Meanwhile, the performance and resource costs of running a complete but lightweight VM, compared to BUW, are acceptable given the benefits. Unfortunately, support for things like mouse scrollback and clipboard sharing don&rsquo;t work in <a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a> (the free virtualization platform I prefer) when the guest is just a shell. I&rsquo;ve also fallen in love with <a href="http://cmder.net" target="_blank">cmder</a>, a persistent drop-down console environment that supports arbitrary shells, that I use constantly. Having to switch to a special, dedicated window for running commands on the VM is nearly a deal-breaker.</p>
+
+<p>Running a <em>headless</em> VM (i.e. no display, real or virtual, attached), to which I can SSH from a shell in cmder, is therefore my ideal setup, with one key problem left to sort out: how to secure command-line SSH access to the Linux VM without BUW (which this effort undertakes to eliminate). <a href="https://Cygwin.com" target="_blank">Cygwin</a>, &ldquo;a distribution of popular GNU and other Open Source tools running on Microsoft Windows,&rdquo; solves this problem while also providing additional benefits. So, starting from a setup where I was previously running a Windows command prompt as well as BUW in Cmder; with the occasional manual bootup of a VirtualBox VM in a separate window; I now have just one shell in Cmder provided by Cygwin, and—with help from a shell script I&rsquo;m calling &ldquo;Ubik&rdquo;—an easy to use, &ldquo;real&rdquo; Linux server for when I need it, all in the same Cmder window.</p>
+
+<h1 id="setup">Setup</h1>
+
+<p>Cmder is a big deal to me, but not required for the basic approach taken here, so I&rsquo;ve listed it in the &ldquo;Optional Steps&rdquo; below.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Setting this up requires a recent version of Windows (I&rsquo;m on Windows 10) and a basic level of comfort with Linux and virtual machine management concepts. For example, I don&rsquo;t detail how to install the software below; rather, I show how to configure everything to work nicely together. If there&rsquo;s demand for a more step-by-step intro to this content, I&rsquo;d be happy to put something together—just let me know!</p>
+
+<h3 id="required-software-versions-i-used-listed-for-reference">Required software (versions I used listed for reference)</h3>
+
+<ul>
+<li><a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a> - v5.1.18</li>
+<li>Linux virtual machine on VirtualBox - <a href="https://www.ubuntu.com/download/server/" target="_blank">Ubuntu Server 16.04.2 LTS</a></li>
+<li><a href="https://Cygwin.com" target="_blank">Cygwin</a> - 64-bit version</li>
+</ul>
+
+<h3 id="optional-software">Optional software</h3>
+
+<ul>
+<li><a href="http://cmder.net/" target="_blank">Cmder</a> - v161206 stable</li>
+</ul>
+
+<h2 id="step-1-configure-port-forwarding-on-the-linux-vm">Step 1: Configure port forwarding on the Linux VM</h2>
+
+<p>This enables SSH access to the VM.</p>
+
+<ol>
+<li>Shut down and close the VM if it isn&rsquo;t closed already.</li>
+<li>Open up the Settings panel for the VM, navigating to Settings &gt; Network.</li>
+<li>In the &ldquo;Attached to:&rdquo; dropdown, select <a href="https://www.virtualbox.org/manual/ch06.html#network_nat_service" target="_blank">NAT</a> if not already selected.</li>
+<li>Expand the Advanced section, then click on Port Forwarding to open the Port Forwarding Rules dialog.</li>
+
+<li><p>Add a new port forwarding rule. Give it a handy name (&ldquo;ssh&rdquo;), leave Protocol set to &ldquo;TCP&rdquo;, leave Host IP blank, assign a Host Port (I&rsquo;m using 3022), leave Guest IP blank, and set Guest Port to 22. Alternatively, you can accomplish this via command-line like so (my VM&rsquo;s name is &ldquo;Ubuntu&rdquo;):</p>
+
+<pre><code>VBoxManage modifyvm Ubuntu --natpf1 &quot;ssh,tcp,,3022,,22&quot;
+</code></pre></li>
+</ol>
+
+<h2 id="step-2-streamline-launch-and-login-of-the-linux-vm">Step 2: Streamline launch and login of the Linux VM</h2>
+
+<p>VirtualBox understands the concept of running a &ldquo;headless&rdquo; server, i.e. running the machine without a (virtual) monitor attached, and this can be controlled via command-line as follows (my machine name is &ldquo;Ubuntu&rdquo;):</p>
+
+<pre><code>VBoxManage startvm Ubuntu --type headless
+</code></pre>
+
+<p>You can also stop a VM with the &ldquo;save state&rdquo; option via command-line; this is a feature for similar to putting your laptop to sleep by closing the lid, in which the machine state is saved in a snapshot:</p>
+
+<pre><code>VBoxManage controlvm Ubuntu savestate
+</code></pre>
+
+<p>To streamline this process, I&rsquo;ve created a shell script I call <code>ubik</code> after Philip K. Dick&rsquo;s <a href="https://en.wikipedia.org/wiki/Ubik" target="_blank">novel of the same name</a>. In the novel, the main character comes to question whether his reality is simulated or real after a series of distortions and other events. A product called Ubik, distributed in an aerosol can, is a mysterious substance that he and other characters discover to help stabilize the boundaries between different realities. Riffing on this idea, the shell script first checks which &ldquo;reality&rdquo; it&rsquo;s running from (whether it&rsquo;s being run from the guest or host), then transitions the user to the other one, starting or stopping the VM as needed and tidying up after itself. You can download it from GitHub here: <a href="https://github.com/argotechnica/ubik" target="_blank">https://github.com/argotechnica/ubik</a>.</p>
+
+<p>Here&rsquo;s some example usage of <code>ubik</code>:</p>
+
+<pre><code>Cory@LYRETOME /cygdrive/c/CMD
+$ ubik
+Ubik ... Safe when taken as directed.
+Waiting for VM &quot;Ubuntu&quot; to power on...
+VM &quot;Ubuntu&quot; has been successfully started.
+Attempting to SSH to VM &quot;Ubuntu&quot;...
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-71-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Fri Apr  7 13:10:18 2017 from 10.0.2.2
+cory@ubuntu:~$ ./ubik
+Connection to localhost closed.
+Return the VM to cryonic suspension? y
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+
+Cory@LYRETOME /cygdrive/c/CMD
+$
+</code></pre>
+
+<p>If you put a copy of this script into your Cygwin and VM home users&rsquo; PATH directories; grant execution permission to the script with <code>chmod +x ubik</code>; and edit the script to incorporate your relevant parameters, you can just type <code>ubik</code> from the command line, and it&rsquo;ll take care of the rest.</p>
+
+<h2 id="optional-steps">Optional Steps</h2>
+
+<h3 id="configure-cmder-with-cygwin">Configure Cmder with Cygwin</h3>
+
+<p>If a drop-down console sounds appealing to you, install Cmder and then check out this guide for instructions on configuring Cygwin with ConEmu, the upstream project from which Cmder is built: <a href="https://github.com/nadav-dav/Cygwin-guide" target="_blank">https://github.com/nadav-dav/Cygwin-guide</a>. Note that the author says to use the path <code>C:\cygwin\Cygwin.bat</code>, but your path may actually be <code>c:\cygwin64\Cygwin.bat</code> if you installed the 64-bit version of Cygwin.</p>
+
+<h3 id="configure-key-based-ssh-authentication">Configure key-based SSH authentication</h3>
+
+<p>This saves you from having to type passwords all the time. Canonical maintains a good writeup <a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys" target="_blank">here</a>. Essentially, in Cygwin, you can just do this:</p>
+
+<pre><code>mkdir ~/.ssh
+chmod 700 ~/.ssh
+ssh-keygen -t rsa
+</code></pre>
+
+<p>Press &ldquo;Enter&rdquo; for every option to get a key that doesn&rsquo;t require a passphrase. Then, copy the content from one of the resulting files, <code>id_rsa.pub</code>, into another file, <code>authorized_keys</code>, located on the VM. You can do this in one command (changing your port, username, and hostname as needed) like this:</p>
+
+<pre><code>cat ~/.ssh/id_rsa.pub | ssh -p 3022 cory@localhost &quot;cat &gt;&gt; ~/.ssh/ authorized_keys&quot;
+</code></pre>
+
+<p>You should be prompted for the password of the destination user account on the virtual machine for this command, but if it worked correctly, you shouldn&rsquo;t have to enter a password to SSH ever again.</p>
+
+<h3 id="start-cmder-automatically-with-windows">Start Cmder automatically with Windows</h3>
+
+<p>Create a shortcut to the Cmder executable and put the shortcut in your Startup folder in the Start Menu. Anything placed in this folder starts automatically when your computer boots up. Windows has worked like this for years, but for some reason the folder is hidden in Windows 10. Here&rsquo;s the full path, so you don&rsquo;t have to hunt for it:</p>
+
+<pre><code>%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+</code></pre>
+
+<h1 id="discussion">Discussion</h1>
+
+<p>Over the years, I&rsquo;ve found that investing a few hours in optimizing my tech setup pays for itself many times over in future efficiencies—and opens the door for more creativity. (When I know the cost of doing <em>x</em> is just a few seconds and an easy-to-use command, rather than an unknown number of minutes and a memory exercise, I&rsquo;m more likely to experiment with <em>x</em>.) In that spirit, the method proposed here sought to balance the best of three approaches for bringing Linux into Windows: the lightweight, compiled-for-Windows tools of Cygwin, the power of a &ldquo;real&rdquo; (virtual) Linux server, and (optionally) a fancy console interface called Cmder—with a bit of <code>ubik</code> to help it all gel.</p>
+
+<h1 id="references">References</h1>
+
+<ul>
+<li><a href="https://askubuntu.com/questions/307677/constantly-check-if-the-virtualbox-is-started-or-still-booting-up-from-a-script" target="_blank">https://askubuntu.com/questions/307677/constantly-check-if-the-virtualbox-is-started-or-still-booting-up-from-a-script</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ubik" target="_blank">https://en.wikipedia.org/wiki/Ubik</a></li>
+<li><a href="https://github.com/nadav-dav/Cygwin-guide" target="_blank">https://github.com/nadav-dav/Cygwin-guide</a></li>
+<li><a href="https://schier.co/blog/2013/03/13/start-virtualbox-vm-in-headless-mode.html" target="_blank">https://schier.co/blog/2013/03/13/start-virtualbox-vm-in-headless-mode.html</a></li>
+<li><a href="https://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host" target="_blank">https://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host</a></li>
+</ul>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Cory Salveson &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-85772634-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/sql.min.js"></script>
+      
+
+      
+      
+        
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

@@ -4,8 +4,50 @@
     
     
     <url>
+      <loc>https://corysalveson.com/post/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://corysalveson.com/post/headless-with-ubik/</loc>
+      <lastmod>2016-07-04T19:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://corysalveson.com/</loc>
       <lastmod>2017-02-14T03:35:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://corysalveson.com/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://corysalveson.com/tags/technical/</loc>
+      <lastmod>2016-07-04T19:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://corysalveson.com/tags/tools/</loc>
+      <lastmod>2016-07-04T19:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

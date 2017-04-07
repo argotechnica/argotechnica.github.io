@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cory Salveson on Cory Salveson</title>
-    <link>https://corysalveson.com/index.xml</link>
-    <description>Recent content in Cory Salveson on Cory Salveson</description>
+    <title>Technical on Cory Salveson</title>
+    <link>https://corysalveson.com/tags/technical/index.xml</link>
+    <description>Recent content in Technical on Cory Salveson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Cory Salveson</copyright>
-    <lastBuildDate>Tue, 14 Feb 2017 03:35:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Running headless Ubuntu Server on Windows 10 with Cygwin, cmder, and Ubik</title>
