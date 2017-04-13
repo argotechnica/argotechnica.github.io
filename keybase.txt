@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/argotechnica
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://corysalveson.com
+  * I am argotechnica (https://keybase.io/argotechnica) on keybase.
+  * I have a public key ASBgB_fWL7dHmJ4G6WtG_ehXVXjp6zwkKmaUdJTn3m_oswo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206007f7d62fb747989e06e96b46fde8575578e9eb3c242a66947494e7de6fe8b30a",
+            "host": "keybase.io",
+            "kid": "01206007f7d62fb747989e06e96b46fde8575578e9eb3c242a66947494e7de6fe8b30a",
+            "uid": "b461e327172a33dc846884b2a839fe19",
+            "username": "argotechnica"
+        },
+        "service": {
+            "hostname": "corysalveson.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1492044727,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492044712,
+        "hash": "80b5da937fac2d6ce436d61a1dabfb656b12d1b741c6cd8ae911f5d5113f29b717758762ab5d77f525ce28d34af84547fe60c97e9f1484fe86d4c57067e0cb34",
+        "seqno": 1016194
+    },
+    "prev": "6e45b332431cb9807d26ed312542cf955181382d975b1d36070dde9a1ade506f",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYAf31i+3R5ieBulrRv3oV1V46es8JCpmlHSU595v6LMKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjAwN2Y3ZDYyZmI3NDc5ODllMDZlOTZiNDZmZGU4NTc1NTc4ZTllYjNjMjQyYTY2OTQ3NDk0ZTdkZTZmZThiMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjAwN2Y3ZDYyZmI3NDc5ODllMDZlOTZiNDZmZGU4NTc1NTc4ZTllYjNjMjQyYTY2OTQ3NDk0ZTdkZTZmZThiMzBhIiwidWlkIjoiYjQ2MWUzMjcxNzJhMzNkYzg0Njg4NGIyYTgzOWZlMTkiLCJ1c2VybmFtZSI6ImFyZ290ZWNobmljYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY29yeXNhbHZlc29uLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjAifSwiY3RpbWUiOjE0OTIwNDQ3MjcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5MjA0NDcxMiwiaGFzaCI6IjgwYjVkYTkzN2ZhYzJkNmNlNDM2ZDYxYTFkYWJmYjY1NmIxMmQxYjc0MWM2Y2Q4YWU5MTFmNWQ1MTEzZjI5YjcxNzc1ODc2MmFiNWQ3N2Y1MjVjZTI4ZDM0YWY4NDU0N2ZlNjBjOTdlOWYxNDg0ZmU4NmQ0YzU3MDY3ZTBjYjM0Iiwic2Vxbm8iOjEwMTYxOTR9LCJwcmV2IjoiNmU0NWIzMzI0MzFjYjk4MDdkMjZlZDMxMjU0MmNmOTU1MTgxMzgyZDk3NWIxZDM2MDcwZGRlOWExYWRlNTA2ZiIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEMMOM3A7lPoKYm3YrnHPzNs9N1tJy2Ib2O0k8XtzV18r/njVYm4MJvaAHG5p+FXkKAKukiXMU7i5Mp2nQRiTgaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB3bx0tbS5dyTa9L5Swa9SncMg2E8b/jBBywDWxPmug3KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/argotechnica
+
+==================================================================
