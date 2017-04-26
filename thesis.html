@@ -4,16 +4,38 @@
     <title>Title</title>
     <meta charset="utf-8">
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Merriweather);
+      @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Droid Serif'; }
+      body { font-family: 'Droid Serif'}
       h1, h2, h3 {
         font-family: 'Merriweather';
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        font-size: 0.75em;
+      }
+      .red { color: #fa0000; }
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+      .left-column h2:last-of-type, .left-column h3:last-child {
+        color: #000;
+      }
+      .right-column {
+        width: 75%;
+        float: right;
+        /* padding-top: 1em; */
+      }
+
     </style>
   </head>
   <body>
@@ -21,25 +43,92 @@
 
 class: center, middle
 
+# 🏛
 # Beyond the university:
 ## Mapping higher education after data science
 
-A thesis proposal in *n* parts by [Cory Salveson](http://corysalveson.com)
----
-# Question
-What new institutional arrangements are gaining traction in higher education,
-specifically for data science education?
----
-# Methods & Data Gathering
+A thesis proposal by [Cory Salveson](http://corysalveson.com)
 
-- Testing
-- ABCD
-.right[![Right-aligned image](./img/)]
-![Data Science Master's programs look very similar online.](/img/dsm.gif)
+---
+# Questions
+## 1. What **new institutional arrangements** are forming in higher education "online"?
+## 2. What do these changes mean for **universities** and **knowledge**?
+
+---
+# Approach
+.left-column[**Data Science** education has exploded in the last few years.
+
+Many "degree" programs now appear online.
+
+How are they different?]
+
+.right-column[<img src="./img/dsm.gif" width="100%" border="1px solid black" />]
+
+---
+# Approach
+.left-column[**Data Science** education has exploded in the last few years.
+
+Many "degree" programs now appear online.
+
+How are they different?]
+
+.right-column[
+- Cost? Who pays?
+- Role of government, industry, academia?
+- Pedagogy?
+- Social mobility?
+- Discourse?
+]
+
+---
+# Approach
+.left-column[**Data Science** education has exploded in the last few years.
+
+Many "degree" programs now appear online.
+
+How are they different?]
+
+.right-column[
+- Cost? Who pays?
+- Role of government, industry, academia?
+- Pedagogy?
+- Social mobility?
+- Discourse?
+***
+### Structure: **comparative**
+### Framing theory: **sociology of education** and **new institutional economics**
+]
+
+???
+- Need to be able to structure and frame
+- Sociology of education = how does education "work" in social reality, e.g. in relation to the state
+  - Code (Bernstein)
+  - Habitus/Field Theory (Bourdieu)
+- NIE = how to arrangements of formal and informal rules, organizational formations, etc. develop; and what interests are expressed in how they are balanced
+---
+# Methodology
+- Build **typology** of institutional forms for **comparative analysis**
+- Model **network** of institutions to analyze specific **power relationships**?
+- Discourse analysis?
+
+# Data
+- Dataset of all MOOCs offered since 2007.red[\*]
+- Scraping public web: GitHub, MOOC websites, universities
+- Policy and funding documents
+- Probably scope to United States only
+
+<img src="./img/cats-cradle.svg" width="50%" style="float:right" />
+.footnote[.red[*] Tentative; courtesy of [Class-Central.com](https://www.class-central.com/)]
 ---
 # Expected Results & Significance
-- Typology of educational "forms"
-- Find the center
+<img src="./img/bigdata.png" width="50%" style="float:right; padding-left: 20px;" />
+- Say something about a field of institutions and forces that haven't been studied together yet
+
+- Suggest some things about the implications of the above for the future of knowledge
+
+- Help sociology of education to *ride the big data wave*
+
+.footnote[Image from [Pictures of Big Data](https://bigdatapix.tumblr.com/)]
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
