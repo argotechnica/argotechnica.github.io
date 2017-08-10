@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cory Salveson on Cory Salveson</title>
-    <link>http://corysalveson.com/index.xml</link>
+    <link>http://corysalveson.com/</link>
     <description>Recent content in Cory Salveson on Cory Salveson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Cory Salveson</copyright>
-    <lastBuildDate>Tue, 14 Feb 2017 03:35:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2017 14:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On Lifelong Learning and the Future of Work</title>
