@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Cory Salveson</title>
+    <link>http://corysalveson.com/tags/data/</link>
+    <description>Recent content in Data on Cory Salveson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Cory Salveson</copyright>
+    <lastBuildDate>Fri, 07 Apr 2017 19:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/data/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A student&#39;s guide to collecting web data for free using cloud computing</title>
+      <link>http://corysalveson.com/post/students-gather-data/</link>
+      <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
+      
+      <guid>http://corysalveson.com/post/students-gather-data/</guid>
+      <description>
+
+&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;At the Oxford Internet Institute, Master&amp;rsquo;s students learn techniques of data wrangling and analysis using Python 3. Python really shines at being able to gather data from diverse sources, both structured and unstructured—for example via an Application Programming Interface (API), or by scraping web pages directly. In classes, at hackathons, and more, the standard setup for this kind of data wrangling is to run Jupyter or Spyder on our local laptops. However, for research purposes, it&amp;rsquo;s often best to gather data over time rather than only at a single point in time. For such needs, running a Python script from one&amp;rsquo;s laptop becomes prohibitively inefficient, and worse: few laptops are on, and online, &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;, meaning that some data cannot be captured.&lt;/p&gt;
+
+&lt;p&gt;The solution is to run a recurring (i.e. scheduled) or continuous script on some kind of always-on server or service. Many possible approaches exist for such a solution; this guide constrains these possibilities in two ways: first, to focus only on server solutions rather than specialized compute or task services such as Amazon Web Services (AWS) &lt;a href=&#34;http://docs.aws.amazon.com/lambda/&#34; target=&#34;_blank&#34;&gt;Lambda&lt;/a&gt;; and second, to solve for cost, i.e. to use only services that can be obtained for free.&lt;/p&gt;
+
+&lt;p&gt;One free option for running server tasks available at University of Oxford is the IT Services &lt;a href=&#34;https://help.it.ox.ac.uk/services/linux/index&#34; target=&#34;_blank&#34;&gt;GNU/Linux service&lt;/a&gt;. This service enables any student to sign in to a larger, shared server for running tasks or manipulating files. However, &amp;ldquo;resource-intensive tasks&amp;rdquo; are forbidden, and the environment itself—which runs only Python 2.7—does not allow for customization of installed software or Python packages. A lot of raw data gathering can still be accomplished in this environment with &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;crontab&lt;/code&gt;, but a more robust server environment is preferable in most cases.&lt;/p&gt;
+
+&lt;p&gt;Beyond Oxford, some of the leading cloud server environments include Amazon Elastic Compute Cloud (Amazon EC2),&lt;/p&gt;
+
+&lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;h3 id=&#34;required-software-versions-i-used-listed-for-reference&#34;&gt;Required software (versions I used listed for reference)&lt;/h3&gt;
+
+&lt;h3 id=&#34;optional-software&#34;&gt;Optional software&lt;/h3&gt;
+
+&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
+
+&lt;h2 id=&#34;optional-steps&#34;&gt;Optional Steps&lt;/h2&gt;
+
+&lt;h1 id=&#34;discussion&#34;&gt;Discussion&lt;/h1&gt;
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://education.github.com/pack&#34; target=&#34;_blank&#34;&gt;https://education.github.com/pack&lt;/a&gt;
+&lt;a href=&#34;https://m.do.co/c/5cb20035a02a&#34; target=&#34;_blank&#34;&gt;https://m.do.co/c/5cb20035a02a&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
