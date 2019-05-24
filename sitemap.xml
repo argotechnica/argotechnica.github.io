@@ -1,110 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/post/future-of-work/</loc>
-      <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/post/headless-with-ubik/</loc>
-      <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/post/future-of-work/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/post/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/</loc>
-      <lastmod>2017-11-06T16:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/learning/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/learning/</loc>
-      <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/policy/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/policy/</loc>
-      <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/thesis/</loc>
+    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/</loc>
-      <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/post/headless-with-ubik/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/technical/</loc>
-      <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/technical/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/thesis/</loc>
-      <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/tags/tools/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>http://corysalveson.com/tags/tools/</loc>
-      <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>http://corysalveson.com/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://corysalveson.com/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corysalveson.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corysalveson.com/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corysalveson.com/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://corysalveson.com/talk/</loc>
+  </url>
   
 </urlset>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cory Salveson on Cory Salveson</title>
+    <title>Cory Salveson &amp;c.</title>
     <link>http://corysalveson.com/</link>
-    <description>Recent content in Cory Salveson on Cory Salveson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Cory Salveson &amp;c.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Cory Salveson</copyright>
-    <lastBuildDate>Mon, 06 Nov 2017 16:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; {year} Cory Salveson</copyright>
+    <lastBuildDate>Fri, 05 May 2017 20:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://corysalveson.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>On Lifelong Learning and the Future of Work</title>
