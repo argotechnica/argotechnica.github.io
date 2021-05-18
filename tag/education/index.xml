@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education | Cory Salveson</title>
+    <link>corysalveson.com/tag/education/</link>
+      <atom:link href="corysalveson.com/tag/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <title>education</title>
+      <link>corysalveson.com/tag/education/</link>
+    </image>
+    
+    <item>
+      <title>The Mobilisation of AI in Education: A Bourdieusean Field Analysis</title>
+      <link>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The AI Maturity Framework</title>
+      <link>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes on analytical engineering</title>
+      <link>corysalveson.com/post/notes-on-analytical-engineering/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>corysalveson.com/post/notes-on-analytical-engineering/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This content was originally posted on the &lt;a href=&#34;https://www.oii.ox.ac.uk/blog/notes-on-analytical-engineering-software-and-method-for-researching-ai-and-lifelong-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford Internet Institute blog&lt;/a&gt;. I&amp;rsquo;ve lightly edited it here to streamline for readability and reflect changing terminology in the field.&lt;/em&gt;&lt;/p&gt;
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#beginning-with-ends-in-mind&#34;&gt;Beginning with ends in mind&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#roadmapping-the-data-analysis-process&#34;&gt;Roadmapping the data analysis process&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#phase-1-bibliometric-data-analysis-of-academic-publications&#34;&gt;Phase 1: Bibliometric data analysis of academic publications&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-1-data-collection-and-storage-tools&#34;&gt;Phase 1 data collection and storage tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-1-data-visualization-and-analysis-tools&#34;&gt;Phase 1 data visualization and analysis tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-1-tool-discussion&#34;&gt;Phase 1 tool discussion&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#phase-2-natural-language-analysis-of-academic-publications&#34;&gt;Phase 2: Natural language analysis of academic publications&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-2-data-collection-and-storage-tools&#34;&gt;Phase 2 data collection and storage tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-2-data-visualization-and-analysis-tools&#34;&gt;Phase 2 data visualization and analysis tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-2-tool-discussion&#34;&gt;Phase 2 tool discussion&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#network-and-natural-language-analysis-of-social-media&#34;&gt;Network and natural language analysis of social media&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-3-data-collection-and-storage-tools&#34;&gt;Phase 3 data collection and storage tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-3-data-visualization-and-analysis-tools&#34;&gt;Phase 3 data visualization and analysis tools&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#phase-3-tool-discussion&#34;&gt;Phase 3 tool discussion&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reflecting-on-analytical-engineering&#34;&gt;Reflecting on analytical engineering&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;beginning-with-ends-in-mind&#34;&gt;Beginning with ends in mind&lt;/h2&gt;
+&lt;p&gt;Following our &lt;a href=&#34;https://www.oii.ox.ac.uk/blog/understanding-the-potential-of-ai-for-lifelong-learning-the-need-for-a-critical-perspective/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;introductory post&lt;/a&gt; about AI and lifelong learning, we wanted to focus on the technology stack we’re using to conduct our research. We thought this topic made sense now for two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;To provide a single point of reference for anyone who wishes to engage with the software and code described in future publications; and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;to be transparent about—and reflect upon—the role of software in shaping the research process itself.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, we chose early on to incorporate machine learning techniques into our research: to address a research challenge we encountered, but also to gain firsthand experience using AI for &lt;a href=&#34;https://distill.pub/2017/aia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;augmenting human intelligence&lt;/a&gt;. If we’re going to assess claims about how AI can be used for learning, after all, it seems sensible for us to gain experience applying AI in this space ourselves!&lt;/p&gt;
+&lt;h2 id=&#34;roadmapping-the-data-analysis-process&#34;&gt;Roadmapping the data analysis process&lt;/h2&gt;
+&lt;p&gt;Again, we’re interested in mapping not only the breadth of discourse about AI and lifelong learning, but especially the underexplored relationships between these subjects. This makes for a lot of material to potentially review, much of it from related but distinct communities.&lt;/p&gt;
+&lt;p&gt;As a result, the object of our analysis came into focus quickly: documents such as journal articles, press releases, social media, and unstructured web content. Tools and methods for analyzing documents took more time and experimentation to develop. As of today, we identify three phases of analytical foci and corresponding tools:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;“Out of the box” tools for &lt;strong&gt;scientometric&lt;/strong&gt; analysis of structured document metadata;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A common Python &lt;strong&gt;natural language processing&lt;/strong&gt; (NLP) pipeline for analyzing semi-structured document data; and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A bespoke graph database platform (knowledge graph) for &lt;strong&gt;network analysis&lt;/strong&gt; of unstructured document data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We’ll share the output of these analyses &lt;em&gt;per se&lt;/em&gt; in future posts. For the rest of this post, we focus on what tools we chose in each phase, how, and with what lessons learned.&lt;/p&gt;
+&lt;p&gt;To help organize each phase, I’ve found it helpful to distinguish between two sets of data management tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data collection and storage&lt;/strong&gt;: How are data gathered? Once downloaded or captured, how is it stored over time to support visualization and analysis? For example, should it be loaded into a database system, or stored directly in memory as a Python object? How will I share it, protect it, back it up?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data visualization and analysis&lt;/strong&gt;: Anscombe’s quartet teaches us that data visualization belongs square in the middle of analysis efforts—not just as a tool for communicating findings at the end. So, what capabilities are available for visualizing and analyzing data throughout the process? How can these capabilities be adapted, modified, recombined, etc.?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For each phase, I first present tools by sub-task, then discuss how all tools fit together within the phase. Every tool we used was free and/or open-source software, and (with a little patience) can all run on Windows, Mac, and Linux. I encourage you to check them out if you haven’t already!&lt;/p&gt;
+&lt;h2 id=&#34;phase-1-bibliometric-data-analysis-of-academic-publications&#34;&gt;Phase 1: Bibliometric data analysis of academic publications&lt;/h2&gt;
+&lt;p&gt;We started with academic publications, which benefit from readily available data as well as interpretive standards established through scientometrics, the quantitative study of research.&lt;/p&gt;
+&lt;h3 id=&#34;phase-1-data-collection-and-storage-tools&#34;&gt;Phase 1 data collection and storage tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://harzing.com/resources/publish-or-perish/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Harzing’s Publish or Perish&lt;/strong&gt;&lt;/a&gt;: Bulk data collection tool created by Anne-Wil Harzing, now in its 6th release, with support for Google Scholar, Microsoft Academic, and Crossref. Also helpful for calculating standard bibliometric scores, saving and comparing searches.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jabref.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;JabRef&lt;/strong&gt;&lt;/a&gt;: Bibliographic data management tool focused on managing entries as a BibTeX file. Features for deduplicating entries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-1-data-visualization-and-analysis-tools&#34;&gt;Phase 1 data visualization and analysis tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vosviewer.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;VOSviewer&lt;/strong&gt;&lt;/a&gt;: Visualization tool for bibliometric networks as well as keyword/term network visualization. Makes it easy to start finding topical patterns based on abstracts. Some features dependent on file format of data input files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-1-tool-discussion&#34;&gt;Phase 1 tool discussion&lt;/h3&gt;
+&lt;p&gt;We first targeted bulk data collection of bibliometric metadata, such as article and journal titles, authors, keywords, etc., using Harzing’s Publish or Perish, a bulk bibliographic metadata collection tool. The bibliographic data manager JabRef allowed us to merge data files from different sources into a single dataset using the BibTeX standard. We also used JabRef to de-duplicate entries as much as possible—a significant challenge given sometimes thousands of overlapping entries from multiple databases. Finally, VOSviewer allowed us to visualize patterns of usage of terms found in article abstracts.&lt;/p&gt;
+&lt;p&gt;Though quick and easy to get these “out of the box” tools working, the approach presented three main drawbacks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Duplicate records.&lt;/strong&gt; JabRef’s deduplication feature didn’t quite scale to tens of thousands of documents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Support for citation network analysis.&lt;/strong&gt; The representation of citation data was too inconsistent and sparse across the dataset to allow us to use VOSviewer the way we hoped.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Support for subsetting data.&lt;/strong&gt; We wanted to be able to visualize subsets of data, but the process was labor-intensive with JabRef. We also wished for better presrevation of provenance within the dataset, such as database and search term of origin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In short, while Phase 1 proved out our basic approach for triangulating discourse, the actual process of downloading from multiple data sources, compiling into a monolithic file in JabRef, then exporting to VOSviewer, was too error prone and labor intensive to be sustainable, given our goals. For example, if there are distinct topic “networks” emerging, what disciplines are the source articles/journals in? Do journal disciplines correspond to topic networks? Etc.&lt;/p&gt;
+&lt;p&gt;For Phase 2, we attempted to streamline these steps from a process designed around a monolithic dataset and analysis step, into more of an iterative search process involving permutations of the dataset itself and of analyical techniques applied to it.&lt;/p&gt;
+&lt;h2 id=&#34;phase-2-natural-language-analysis-of-academic-publications&#34;&gt;Phase 2: Natural language analysis of academic publications&lt;/h2&gt;
+&lt;p&gt;We turned to topic modeling and text classification techniques, paired with specialized visualizations and a bespoke “report generation” approach, to develop a more qualitative and expressive analysis of the topic space.&lt;/p&gt;
+&lt;p&gt;While we did reuse the BibTeX data standard from Phase 1, we shifted to using the Python 3 Anaconda Distribution to take advantage of multiple community packages dedicated to various sub-tasks in the phase. The tools below correspond to these packages.&lt;/p&gt;
+&lt;h3 id=&#34;phase-2-data-collection-and-storage-tools&#34;&gt;Phase 2 data collection and storage tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bibtexparser.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;bibtexparser&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Adds helper functions for importing and exporting BibTeX files.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;Pandas&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: De facto standard for adding capabilities for working with tabular data using a “dataframe” concept. Includes helper functions for import, export, and manipulation, including filtering/subsetting of data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nltk.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;NLTK&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Natural Language Toolkit (NLTK) implements tasks in natural language processing at a fine level of granularity and control.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scikit-learn.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;scikit-learn&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Most popular “SciPy Toolkit” collecting production-class implementations of machine learning algorithms, wrapped in an elegant “pipeline” framework that allows for easy experimentation and configuration of ML workflows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-2-data-visualization-and-analysis-tools&#34;&gt;Phase 2 data visualization and analysis tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://seaborn.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;seaborn&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Data visualization library designed to streamline and extend the features of matplotlib, a common data visualization library for Python inspired by MATLAB.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-docx.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;python-docx&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Toolkit for creating and editing Office Open XML Document documents, AKA Microsoft Word documents.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pyldavis.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;pyLDAvis&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Generates interactive visualizations of latent Dirichlet allocation (LDA) topic models using HTML. Implements an R package, LDAvis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-2-tool-discussion&#34;&gt;Phase 2 tool discussion&lt;/h3&gt;
+&lt;p&gt;In our shift from article metrics to article abstracts, we wanted to ensure we could rapidly explore the parameter space of multiple dimensions in combination with each other:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Article provenance, such as search term used to obtain the article&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NLP tasks (such as topic modeling) and approaches (such as distinct algorithms for performing topic modeling)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parameters of specific approaches (such as number of topics the topic modeling approach should create)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To achieve this, we designed a pipeline of processing steps in Python that allowed us to tweak parameters at multiple points in the pipeline and quickly assess impact using interactive and static outputs. We did this by first bringing in bibliographic data using bibtexparser, then converting it to a Pandas dataframe for further processing. For example, Pandas allowed us to apply regular expression matching to filter and subset data.&lt;/p&gt;
+&lt;p&gt;After this filtering step, a “create topic report” function applies a series of transformations to the data before outputting an interactive topic model visualization using pyLDAvis, as well as a detailed Word document report (created with python-docx) for each topic containing the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List of topics with descriptive statistics such as number of articles per topic, and distribution of topics per year, visualized using seaborn&lt;/li&gt;
+&lt;li&gt;For each topic, listing of the top n articles within that topic group, including title, authors, journal, and abstract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To arrive at these report outputs, a number of NLP tasks are chained together. NTLK removes stopwords and lemmatizes article abstracts. Next, data is copied across two parallel processing flows using scikit-learn. For each flow, text data is converted into into a matrix representation suitable for quantitative and statistical analysis by topic modeling algorithms. These included term frequency-inverse document frequency (tf–idf) to support latent Dirichlet allocation (LDA), as well as term frequency to support Non-Negative Matrix Factorization (NMF).&lt;/p&gt;
+&lt;p&gt;For both LDA and NMF data flows, each document receives a score describing how well it fits within each of a given number of topic groups. Rather than settle on a single, “correct” number of topics, we wanted to explore the effect of varying topic number to see what patternsemerged. Therefore, for each time the pipeline is run with a given data input, it iterates across multiple values for topic number, creating a distinct report file for each group count, e.g. reports for 3, 5, 7, 10, 20, and 40 topics. By reviewing reports across the parameter space of topic numbers, we could then isolate topic groups that were especially unique; persistent across topic numbers; or else irrelevant to our cause. This last category enabled us to prune irrelevant articles from our dataset, then re-iterate to analyze again.&lt;/p&gt;
+&lt;p&gt;This qualitative, exploratory approach to data analysis would not have been possible with out of the box tools. At the same time, while helpful in enabling us to grasp the breadth of topical foci within the space, it was less clear how to understand the social situatedness of topics, articles, or journals. For this, we turned to a more ambitious software pipeline in our third phase.III.&lt;/p&gt;
+&lt;h2 id=&#34;network-and-natural-language-analysis-of-social-media&#34;&gt;Network and natural language analysis of social media&lt;/h2&gt;
+&lt;p&gt;In Phase 3, we wanted to take advantage of recent advances on a NLP task known as “entity recognition” to build out a network analysis of activities occurring in social media related to AI and lifelong learning. That is, by collecting news articles; blogs/microblogs; and possibly the academic articles we had collected in Phases 1-2, we wanted to develop a semi-automated way of identifying what was being discussed in the various articles, as well as what social actors we could therefore deduce or infer were collaborating in some way. We envisioned a graph database system to serve as a knowledge base for tracking these insights, with a data collection and analysis system on top of this database to help populate it.&lt;/p&gt;
+&lt;p&gt;This phase is a work in progress, so this list is subject to change!&lt;/p&gt;
+&lt;h3 id=&#34;phase-3-data-collection-and-storage-tools&#34;&gt;Phase 3 data collection and storage tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://neo4j.com/product/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Neo4j (Community Edition)&lt;/strong&gt;&lt;/a&gt;: Graph database management system with a mature ecosystem of development tools, such as a Python driver (Py2neo); dedicated query language (Cypher; and helper tools (Awesome Procedures On Cypher AKA APOC). Readily available documentation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://graphileon.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Graphileon Interactor (Community Edition)&lt;/strong&gt;&lt;/a&gt;: Visual interface for Neo4j that provides ad-hoc querying and data editing within a visual web interface.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kurtmckee/feedparser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;feedparser&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Extracts structured data from RSS, ATOM, and other syndication feeds.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://newspaper.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;Newspaper3k&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Extracts structured data from websites containing serialized data in a “news article” format. Complements feedparser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-3-data-visualization-and-analysis-tools&#34;&gt;Phase 3 data visualization and analysis tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://spacy.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Python – &lt;em&gt;&lt;strong&gt;spaCy&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;: Newer NLP framework with more streamlined as well as advanced functionality than previous combination of NLTK + scikit-learn. Ships with trained models that achieve state of the art performance in multiple NLP tasks. Good documentation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cytoscape.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Cytoscape&lt;/strong&gt;&lt;/a&gt;: Graph/Network visualization software. Interfaces with Neo4j.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-3-tool-discussion&#34;&gt;Phase 3 tool discussion&lt;/h3&gt;
+&lt;p&gt;For Phase 3, the vision is to use Python tools like feedparser and Newspaper3k to collect data from the open web. This will be stored within a Neo4j database in such a way as to preserve provenance (data source) represented as graph connections between data sources and documents. Using spaCy, we can then use named entity recognition (NER) functionality to identify nouns such as companies, products, and locations, from article texts. These can also be represented as distinct “entity” graph nodes connected to document nodes. By analyzing within- as well as across-document mentions of specific products, companies, etc., we can identify a “collaboration network” within the space. Challenges related to pruning, enhancing, or creating data entries in the database are met by providing Graphileon Interactor to the general research team, since this tool provides ad-hoc querying and data creation/delete/editing capabilities. Finally, Cytoscape provides more advanced capabilities around visualizing and analyzing the graph itself.&lt;/p&gt;
+&lt;p&gt;We are actively working on this phase and hope to dedicate a future blog post to its progress.&lt;/p&gt;
+&lt;h2 id=&#34;reflecting-on-analytical-engineering&#34;&gt;Reflecting on analytical engineering&lt;/h2&gt;
+&lt;p&gt;Over the course of these three phases of research, it has struck me that although our choice of tools has always been lead by research questions, so too have our questions been lead by technical capabilities. This give and take of course also characterizes the application of AI for lifelong learning: certain tasks are becoming increasingly efficient and effective for computers to perform—but what are the “right” applications of AI techniques, on balance? (“Where is the knowledge we have lost in information?”)&lt;/p&gt;
+&lt;p&gt;For us, an important part of navigating this question has been to ensure we maintain a “human in the middle” approach to our use of machine learning and other computational techniques. By this, we mean more than just the “art” or pragmatic dimension of applying unsupervised learning techniques like topic clustering. Rather, we mean that qualitative checks like our Phase 2 topic reports were important to ensure, regardless of the technical performance of processing steps per se, that we had opportunities to leverage (and develop) our own intuition, creativity, and expertise in the space to make further decisions and conclusions. Though I risk anthropomorphizing AI by saying so, I’m inclined to characterize this as a “partnering with” relation to AI technologies, rather than a “hand off work to” relation.&lt;/p&gt;
+&lt;p&gt;As the project has evolved, we’ve also answered the concerns raised in this post by pursuing two other branches of activity: a more conventional literature review and synthesis of policy related to AI and lifelong learning, and a plan for case studies applying a more ethnographic approach to studying the use of AI for lifelong learning in situ. We hope you’ll join us as we present these and more over coming weeks and months.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping AI and Education debates: revisiting acquisition and participation metaphors for learning</title>
+      <link>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <guid>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On lifelong learning and the future of work</title>
+      <link>corysalveson.com/post/future-of-work/</link>
+      <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
+      <guid>corysalveson.com/post/future-of-work/</guid>
+      <description>&lt;p&gt;The Pew Research Center released a timely new report today titled &lt;a href=&#34;http://www.pewinternet.org/2017/05/03/the-future-of-jobs-and-jobs-training/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Future of Jobs and Jobs Training&lt;/a&gt;. Announced on their blog as &amp;ldquo;Experts on the Future of Work, Jobs Training and Skills,&amp;rdquo; the report features survey data and selected quotes from some of my personal heroes, including danah boyd, Cory Doctorow, and Richard Stallman. It also features a quote from me!&lt;/p&gt;
+&lt;p&gt;Written during my time as Learning Systems and Analytics Lead at RSM US, I wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The nature of work today, and in future, is such that if people want to keep increasingly scarce well-paying jobs, they will &lt;em&gt;need&lt;/em&gt; to educate themselves in an ongoing manner for their whole lives.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I stand by that comment, but thought I&amp;rsquo;d expand on it a bit here, as I did &lt;a href=&#34;https://twitter.com/argotechnica/status/860169430550151170&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Namely, I&amp;rsquo;d like to add that although savvy workers can, and I think all workers eventually must, own their own lifelong learning; I firmly believe that the &lt;em&gt;institutionalization&lt;/em&gt; of lifelong learning needs to be debated at a broader societal level, i.e. in terms of policy and funding.&lt;/p&gt;
+&lt;p&gt;What do I mean by &amp;ldquo;institutionalization&amp;rdquo;? I like the definition set out by Ménard &amp;amp; Shirley in their &lt;a href=&#34;http://link.springer.com/10.1007/b106770&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Handbook of New Institutional Economics&lt;/em&gt;&lt;/a&gt; (2008; emphasis mine):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Institutions are the &lt;strong&gt;written and unwritten rules, norms and constraints&lt;/strong&gt; that humans devise to reduce uncertainty and control their environment. These include (i) written rules and agreements that govern contractual relations and corporate governance, (ii) constitutions, laws and rules that govern politics, government, finance, and society more broadly, and (iii) unwritten codes of conduct, norms of behavior, and beliefs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For example, if lifelong learning shifts from optional to compulsory, who should pay for the time investment of individuals and educators? Some professions already require lifelong learning, such as healthcare and accounting; but many don&amp;rsquo;t. In either case, the proliferation of free or very cheap, easily accessible education online (this cheapness itself being a kind of unwritten rule of the MOOC marketplace) seems to be headed in the direction of pressuring workers to use their own time to pursue lifelong learning. Is that fair? Maybe it (almost) was in a world in which a degree obtained in your twenties carried you through an entire career, and jobs existed at multiple, lower levels of educuation that provided living wages; but when the nature of work is such that lifelong education and learning are compulsory, it seems more suspect.&lt;/p&gt;
+&lt;p&gt;The key, then, is that &lt;strong&gt;we must not endanger the dignity and rights of workers by failing to transition learning institutions to the new normal of work.&lt;/strong&gt; As suggested above, my intuition is that simply making more low-cost training available, such as through Massive Open Online Courses (MOOCs), is not enough in this regard.&lt;/p&gt;
+&lt;p&gt;Overall, these concerns are some of the many that inspire my Master&amp;rsquo;s thesis at the Oxford Internet Institute this year. In the thesis, I hope to explore new institutional arrangements within higher education, such as what new policies (like the above), formal and informal rules, and organizations or organizational forms are developing online. I hope to share more as I work over the coming months, but in the meantime, I have a slideshow &lt;a href=&#34;http://corysalveson.com/thesis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; describing the thesis proposal, if you&amp;rsquo;re curious.&lt;/p&gt;
+&lt;p&gt;As always, please do let me know if you have any comments or questions—particularly research suggestions! You can reach me via my contact info on this website (including my C.V., which is now posted &lt;a href=&#34;http://corysalveson.com/Resume_Cory_Salveson.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), or catch me on &lt;a href=&#34;https://twitter.com/argotechnica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

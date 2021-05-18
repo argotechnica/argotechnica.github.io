@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Cory Salveson &amp;c.</title>
-    <link>http://corysalveson.com/categories/</link>
-    <description>Recent content in Categories on Cory Salveson &amp;c.</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Cory Salveson</copyright>
-    
-	<atom:link href="http://corysalveson.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Categories | Cory Salveson</title>
+    <link>corysalveson.com/categories/</link>
+      <atom:link href="corysalveson.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>corysalveson.com/categories/</link>
+    </image>
     
   </channel>
 </rss>

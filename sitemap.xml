@@ -1,89 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://corysalveson.com/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/post/future-of-work/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/post/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/learning/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/policy/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/thesis/</loc>
-    <lastmod>2017-05-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/post/headless-with-ubik/</loc>
+    <loc>corysalveson.com/tag/bio/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/categories/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/post/dear-reader/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/category/personal/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/personal/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/post/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tags/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication-type/2/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/ai/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/bourdieu/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/education/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/knowledge-graphs/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/oii/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication_types/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/sociology/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication-type/4/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/lifelong-learning/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/network-science/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/post/notes-on-analytical-engineering/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/category/research/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/research/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication-type/1/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/learning/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/linux/</loc>
     <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/technical/</loc>
+  </url><url>
+    <loc>corysalveson.com/category/notes-commentary/</loc>
     <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/tags/tools/</loc>
+  </url><url>
+    <loc>corysalveson.com/post/future-of-work/</loc>
     <lastmod>2017-04-07T19:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>corysalveson.com/tag/policy/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/post/headless-with-ubik/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/technical/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/category/technology/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/tools/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/tag/virtualbox/</loc>
+    <lastmod>2017-04-07T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>corysalveson.com/admin/</loc>
   </url>
-  
-  <url>
-    <loc>http://corysalveson.com/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/authors/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>http://corysalveson.com/talk/</loc>
-  </url>
-  
 </urlset>

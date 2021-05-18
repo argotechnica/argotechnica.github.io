@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Cory Salveson &amp;c.</title>
-    <link>http://corysalveson.com/publication_types/</link>
-    <description>Recent content in Publication_types on Cory Salveson &amp;c.</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Cory Salveson</copyright>
-    
-	<atom:link href="http://corysalveson.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Publication_types | Cory Salveson</title>
+    <link>corysalveson.com/publication_types/</link>
+      <atom:link href="corysalveson.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <title>Publication_types</title>
+      <link>corysalveson.com/publication_types/</link>
+    </image>
     
   </channel>
 </rss>
