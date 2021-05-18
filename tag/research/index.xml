@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research | Cory Salveson</title>
-    <link>corysalveson.com/tag/research/</link>
-      <atom:link href="corysalveson.com/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/research/</link>
+      <atom:link href="/tag/research/index.xml" rel="self" type="application/rss+xml" />
     <description>research</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>research</title>
-      <link>corysalveson.com/tag/research/</link>
+      <link>/tag/research/</link>
     </image>
     
     <item>
       <title>Notes on analytical engineering</title>
-      <link>corysalveson.com/post/notes-on-analytical-engineering/</link>
+      <link>/post/notes-on-analytical-engineering/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/post/notes-on-analytical-engineering/</guid>
+      <guid>/post/notes-on-analytical-engineering/</guid>
       <description>&lt;p&gt;&lt;em&gt;This content was originally posted on the &lt;a href=&#34;https://www.oii.ox.ac.uk/blog/notes-on-analytical-engineering-software-and-method-for-researching-ai-and-lifelong-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford Internet Institute blog&lt;/a&gt;. I&amp;rsquo;ve lightly edited it here to streamline for readability and reflect changing terminology in the field.&lt;/em&gt;&lt;/p&gt;
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;

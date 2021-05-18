@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>education | Cory Salveson</title>
-    <link>corysalveson.com/tag/education/</link>
-      <atom:link href="corysalveson.com/tag/education/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/education/</link>
+      <atom:link href="/tag/education/index.xml" rel="self" type="application/rss+xml" />
     <description>education</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>education</title>
-      <link>corysalveson.com/tag/education/</link>
+      <link>/tag/education/</link>
     </image>
     
     <item>
       <title>The Mobilisation of AI in Education: A Bourdieusean Field Analysis</title>
-      <link>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</link>
+      <link>/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</guid>
+      <guid>/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -33,9 +33,9 @@
     
     <item>
       <title>The AI Maturity Framework</title>
-      <link>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</link>
+      <link>/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</guid>
+      <guid>/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -52,9 +52,9 @@
     
     <item>
       <title>Notes on analytical engineering</title>
-      <link>corysalveson.com/post/notes-on-analytical-engineering/</link>
+      <link>/post/notes-on-analytical-engineering/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/post/notes-on-analytical-engineering/</guid>
+      <guid>/post/notes-on-analytical-engineering/</guid>
       <description>&lt;p&gt;&lt;em&gt;This content was originally posted on the &lt;a href=&#34;https://www.oii.ox.ac.uk/blog/notes-on-analytical-engineering-software-and-method-for-researching-ai-and-lifelong-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford Internet Institute blog&lt;/a&gt;. I&amp;rsquo;ve lightly edited it here to streamline for readability and reflect changing terminology in the field.&lt;/em&gt;&lt;/p&gt;
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
@@ -216,9 +216,9 @@
     
     <item>
       <title>Mapping AI and Education debates: revisiting acquisition and participation metaphors for learning</title>
-      <link>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</link>
+      <link>/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</guid>
+      <guid>/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -235,9 +235,9 @@
     
     <item>
       <title>On lifelong learning and the future of work</title>
-      <link>corysalveson.com/post/future-of-work/</link>
+      <link>/post/future-of-work/</link>
       <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
-      <guid>corysalveson.com/post/future-of-work/</guid>
+      <guid>/post/future-of-work/</guid>
       <description>&lt;p&gt;The Pew Research Center released a timely new report today titled &lt;a href=&#34;http://www.pewinternet.org/2017/05/03/the-future-of-jobs-and-jobs-training/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Future of Jobs and Jobs Training&lt;/a&gt;. Announced on their blog as &amp;ldquo;Experts on the Future of Work, Jobs Training and Skills,&amp;rdquo; the report features survey data and selected quotes from some of my personal heroes, including danah boyd, Cory Doctorow, and Richard Stallman. It also features a quote from me!&lt;/p&gt;
 &lt;p&gt;Written during my time as Learning Systems and Analytics Lead at RSM US, I wrote:&lt;/p&gt;
 &lt;blockquote&gt;

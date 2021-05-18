@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bourdieu | Cory Salveson</title>
-    <link>corysalveson.com/tag/bourdieu/</link>
-      <atom:link href="corysalveson.com/tag/bourdieu/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/bourdieu/</link>
+      <atom:link href="/tag/bourdieu/index.xml" rel="self" type="application/rss+xml" />
     <description>Bourdieu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>Bourdieu</title>
-      <link>corysalveson.com/tag/bourdieu/</link>
+      <link>/tag/bourdieu/</link>
     </image>
     
     <item>
       <title>The Mobilisation of AI in Education: A Bourdieusean Field Analysis</title>
-      <link>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</link>
+      <link>/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</guid>
+      <guid>/publication/davies-eynon-salveson-2020-mobilisation-of-ai-in-education/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -33,9 +33,9 @@
     
     <item>
       <title>The AI Maturity Framework</title>
-      <link>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</link>
+      <link>/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</guid>
+      <guid>/publication/eai-ramakrishnan-salveson-2020-ai-maturity-framework/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

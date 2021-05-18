@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>learning | Cory Salveson</title>
-    <link>corysalveson.com/tag/learning/</link>
-      <atom:link href="corysalveson.com/tag/learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/learning/</link>
+      <atom:link href="/tag/learning/index.xml" rel="self" type="application/rss+xml" />
     <description>learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>learning</title>
-      <link>corysalveson.com/tag/learning/</link>
+      <link>/tag/learning/</link>
     </image>
     
     <item>
       <title>Mapping AI and Education debates: revisiting acquisition and participation metaphors for learning</title>
-      <link>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</link>
+      <link>/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      <guid>corysalveson.com/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</guid>
+      <guid>/publication/eynon-salveson-2018-mapping-ai-and-education-debates/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -33,9 +33,9 @@
     
     <item>
       <title>On lifelong learning and the future of work</title>
-      <link>corysalveson.com/post/future-of-work/</link>
+      <link>/post/future-of-work/</link>
       <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
-      <guid>corysalveson.com/post/future-of-work/</guid>
+      <guid>/post/future-of-work/</guid>
       <description>&lt;p&gt;The Pew Research Center released a timely new report today titled &lt;a href=&#34;http://www.pewinternet.org/2017/05/03/the-future-of-jobs-and-jobs-training/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Future of Jobs and Jobs Training&lt;/a&gt;. Announced on their blog as &amp;ldquo;Experts on the Future of Work, Jobs Training and Skills,&amp;rdquo; the report features survey data and selected quotes from some of my personal heroes, including danah boyd, Cory Doctorow, and Richard Stallman. It also features a quote from me!&lt;/p&gt;
 &lt;p&gt;Written during my time as Learning Systems and Analytics Lead at RSM US, I wrote:&lt;/p&gt;
 &lt;blockquote&gt;

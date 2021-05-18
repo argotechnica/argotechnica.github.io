@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Cory Salveson</title>
-    <link>corysalveson.com/tags/</link>
-      <atom:link href="corysalveson.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
-      <link>corysalveson.com/tags/</link>
+      <link>/tags/</link>
     </image>
     
   </channel>

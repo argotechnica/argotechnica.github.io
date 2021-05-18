@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology | Cory Salveson</title>
-    <link>corysalveson.com/category/technology/</link>
-      <atom:link href="corysalveson.com/category/technology/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/technology/</link>
+      <atom:link href="/category/technology/index.xml" rel="self" type="application/rss+xml" />
     <description>Technology</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Apr 2017 19:00:00 +0000</lastBuildDate>
     <image>
-      <url>/corysalveson.com/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
+      <url>/media/icon_hu28acc70fc1706a8d0064012e8c091c93_1218_512x512_fill_lanczos_center_2.png</url>
       <title>Technology</title>
-      <link>corysalveson.com/category/technology/</link>
+      <link>/category/technology/</link>
     </image>
     
     <item>
       <title>Running headless with Ubik</title>
-      <link>corysalveson.com/post/headless-with-ubik/</link>
+      <link>/post/headless-with-ubik/</link>
       <pubDate>Fri, 07 Apr 2017 19:00:00 +0000</pubDate>
-      <guid>corysalveson.com/post/headless-with-ubik/</guid>
+      <guid>/post/headless-with-ubik/</guid>
       <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
 &lt;p&gt;I ran Linux as my primary desktop for years, but now I find myself, &lt;a href=&#34;https://en.wikisource.org/wiki/The_Divine_Comedy/Inferno/Canto_I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;as in a forest dark&lt;/a&gt;, running Windows 10. &lt;a href=&#34;https://msdn.microsoft.com/en-gb/commandline/wsl/faq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bash on Ubuntu on Windows&lt;/a&gt; (BUW) is a commendable project, but it&amp;rsquo;s incomplete: BUW has a fully stocked &lt;code&gt;/bin&lt;/code&gt; directory, for example, but ICMP is broken, so &lt;code&gt;ping&lt;/code&gt; and &lt;code&gt;traceroute&lt;/code&gt; don&amp;rsquo;t work. Some Python scripts also fail in ways unique to the BUW Linux environment. So, while I do hope the project goes on to get future updates, I need something a bit more powerful and flexible in the meantime.&lt;/p&gt;
 &lt;p&gt;Running a Linux virtual machine (VM) is my solution. Being a &amp;ldquo;real&amp;rdquo; Linux server, and one that I can fully control, it should be able to do anything I need for local (non-cloud) tasks. Meanwhile, the performance and resource costs of running a complete but lightweight VM, compared to BUW, are acceptable given the benefits. Unfortunately, support for things like mouse scrollback and clipboard sharing don&amp;rsquo;t work in &lt;a href=&#34;https://www.virtualbox.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VirtualBox&lt;/a&gt; (the free virtualization platform I prefer) when the guest is just a shell. I&amp;rsquo;ve also fallen in love with &lt;a href=&#34;http://cmder.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cmder&lt;/a&gt;, a persistent drop-down console environment that supports arbitrary shells, that I use constantly. Having to switch to a special, dedicated window for running commands on the VM is nearly a deal-breaker.&lt;/p&gt;
