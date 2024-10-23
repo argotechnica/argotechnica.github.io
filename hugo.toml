@@ -1,0 +1,116 @@
+baseURL = 'https://corysalveson.com/'
+title = 'Cory Salveson'
+
+languageCode = 'en-us'
+enableRobotsTXT = true
+theme = "gokarna"
+
+[menu]
+  # [[menu.main]]
+  #   # Display name
+  #   name = "Posts"
+  #   # Surround the menu entry (or name) with HTML content, such as Feather
+  #   # icons: https://feathericons.com
+  #   pre = "<span data-feather='book'></span>"
+  #   # Relative URL slug (appended to baseURL)
+  #   url = "/posts/"
+
+  #   # Lower weights are listed first in the menu (leftmost); higher weights are
+  #   # listed last in the menu (rightmost)
+  #   weight = 1
+
+
+  # [[menu.main]]
+  #   name = "Tags"
+  #   pre = "<span data-feather='tag'></span>"
+  #   url = "/tags/"
+  #   weight = 2
+    
+#   [[menu.main]]
+#     # Unique identifiers are required for menu entries without a name property,
+#     # or for menu entries which re-use a name
+#     identifier = "github"
+
+#     # Absolute URL to external resource
+#     url = "https://github.com/argotechnica"
+#     weight = 3
+    
+#     # Surround the menu entry (or name) with HTML content, such as Feather
+#     # icons: https://feathericons.com
+#     pre = "<span data-feather='github'></span>"
+#     post = ""
+  
+  # [[menu.main]]
+  #   # Unique identifiers are required for menu entries without a name property,
+  #   # or for menu entries which re-use a name
+  #   name = "Resume"
+  #   identifier = "resume"
+
+  #   # Absolute URL to external resource
+  #   url = "/pdf/resume_cory_salveson.pdf"
+  #   weight = 3
+    
+  #   # Surround the menu entry (or name) with HTML content, such as Feather
+  #   # icons: https://feathericons.com
+  #   pre = "<span data-feather='file-text' title='Download Resume'></span>"
+  #   post = ""
+
+[params]
+  # Choose the color shown when hyperlinks are hovered over
+  # https://ui.shadcn.com/colors
+  accentColor = "#0284c7"
+
+  # Resource URL for the site avatar (home page and header)
+  avatarURL = "/images/avatar.webp"
+
+  # Describe the avatar for screen readers
+  avatarAltText = "Black and white portrait of Cory"
+
+  # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
+  avatarSize = "size-s"
+
+  # Inject arbitrary HTML via the <head> tag
+  # Best used for importing custom JavaScript, CSS, or analytics
+  customHeadHTML = ""
+
+  # Configure how post dates are displayed
+  # dateFormat must be set if lastmod is declared in front matter, or
+  # enableGitInfo is true
+  dateFormat = "January 2, 2006"
+  
+  # Home page meta description
+  description = "Full-Stack CTO & Researcher"
+
+  socialIcons = [
+    {name = "linkedin", url = "https://linkedin.com/in/corysalveson"},
+    {name = "github", url = "https://github.com/argotechnica"},
+    # {name = "bluesky", url = "https://bsky.app/profile/argotechnica.bsky.social"},
+    {name = "cv-fill", url = "/pdf/resume_cory_salveson.pdf"},
+    {name = "email", url = "mailto:corysalveson@gmail.com"},
+    {name = "upwork", url = "https://www.upwork.com/freelancers/~017d91b25d46f8b5f8"},
+    {name = "calendar", url = "https://calendly.com/corysalveson/30min"}
+  ]
+
+  # Footer text (i.e. author/project name)
+#   footer = ""
+
+  # Define SEO keywords
+  metaKeywords = ["Fractional CTO","Full-Stack CTO","Tech Leadership","Emerging Technology Expert","XR Product Development","AI and Blockchain Researcher","Oxford Graduate","Startup CTO","Research-Driven Tech Leader","Extended Reality (XR)","AI and Blockchain Expert","Fractional CTO for Startups","AI and Blockchain Publications","Extended Reality (XR) Solutions Architect","Multi-Device Product Development","Tech Strategy and R&D","CTO with Academic Background","Economic Impacts of AI and Blockchain","Oxford Internet Institute Alumni","Leadership in Emerging Technologies","Strategic Technology Advisor for Enterprises"]
+
+  # Define how many posts are displayed on the home page
+  # showPostsOnHomePage must be "popular" or "recent"
+  numberPostsOnHomePage = 4
+
+  # Display a "back to top" button on posts and pages: true, false
+  # May not render on smaller screen sizes
+  showBackToTopButton = true
+
+  # Display posts on the home page:
+  # "popular" (order posts by weight)
+  # "recent" (order posts by date)
+  # "", unset (do not display)
+  showPostsOnHomePage = ""
+
+  # Show the previous and next post in your timeline: "true", "false"
+  # Incompatible with Weight
+  togglePreviousAndNextButtons = "false"
