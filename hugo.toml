@@ -79,16 +79,17 @@ theme = "gokarna"
   dateFormat = "January 2, 2006"
   
   # Home page meta description
-  description = "Full-Stack CTO & Researcher"
+  description = "Technical Leadership for Unlocking Human Potential"
 
   socialIcons = [
     {name = "linkedin", url = "https://linkedin.com/in/corysalveson"},
     {name = "github", url = "https://github.com/argotechnica"},
     # {name = "bluesky", url = "https://bsky.app/profile/argotechnica.bsky.social"},
-    {name = "cv-fill", url = "/pdf/resume_cory_salveson.pdf"},
+    # {name = "cv-fill", url = "/pdf/Resume_Cory_Salveson.pdf"},
+    {name = "orcid", url = "https://orcid.org/0000-0002-0960-9547"},
     {name = "email", url = "mailto:corysalveson@gmail.com"},
-    {name = "upwork", url = "https://www.upwork.com/freelancers/~017d91b25d46f8b5f8"},
-    {name = "calendar", url = "https://calendly.com/corysalveson/30min"}
+    # {name = "upwork", url = "https://www.upwork.com/freelancers/~017d91b25d46f8b5f8"},
+    # {name = "calendar", url = "https://calendly.com/corysalveson/30min"}
   ]
 
   # Footer text (i.e. author/project name)

@@ -1,9 +1,12 @@
 <!-- # About Me -->
 
-* **15 years’ experience** in startups, enterprise, academia, government
-* Built a multi-platform XR product as **full-stack CTO** at [Cumulus](https://cumulus.world)
-* **Advised** and **published social science research** on AI, blockchain
-* Awarded **Oxford Ideas Prize** at the [Oxford Internet Institute](https://www.oii.ox.ac.uk)
+I’m a hands-on technology leader with a foundation in social science research and 15+ years of experience turning emerging tech into products that unlock human potential.
+
+My work spans startups, enterprise, academia, and government, and I’ve led teams building everything from immersive XR platforms to collective intelligence systems and knowledge management tools.
+
+My purpose is to use technology thoughtfully to help people learn, grow, and connect; to preserve knowledge and wisdom; and to build systems that enable individuals and teams to realize their full potential.
+
+Whether building full-stack solutions for AI-driven R&D, architecting modern cloud infrastructure for global teams, or mentoring future leaders, I bring a strategic-operational balance that helps organizations deliver meaningful impact.
 
 <!-- * **Fractional/Consulting CTO**
   * Technology strategy and solution architecture

@@ -148,6 +148,7 @@ img {
   float: left;
   height: 100%;
   margin-left: 15px;
+  display: none;
 }
 .header-nav .avatar img {
   border-radius: 100%;
@@ -162,6 +163,7 @@ img {
   height: 100%;
   line-height: 50px;
   padding-left: 15px;
+  display: none;
 }
 .nav-title a {
   height: 50px;
@@ -199,7 +201,19 @@ img {
   border-left: 1.5px solid;
   color: var(--light-secondary-color);
   margin: 0 10px;
+  display: none;
 }
+
+/* Always show the dark-theme-toggle */
+.nav-links .dark-theme-toggle {
+  display: inline-block !important;
+}
+
+/* Always hide the hamburger menu icon */
+#hamburger-menu-toggle {
+  display: none !important;
+}
+
 .nav-links .dark-theme-toggle:hover {
   cursor: pointer;
 }
@@ -414,6 +428,10 @@ table td {
 
 .home-about h1 {
   font-size: 2em;
+}
+
+.markdown-content h1 {
+  font-size: 1em;
 }
 
 .gk-social-icons {
